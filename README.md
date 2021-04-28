@@ -1,6 +1,8 @@
 # Introduction
 
-An HTML/CSS project covering basic concepts.
+An HTML/CSS project covering basic concepts.  
+
+I plan to use this for reference in my web development journey.
 
 ## Demo Link
 
