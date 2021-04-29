@@ -1,3 +1,27 @@
 table, th, td {
-  border: 2px solid brown;
+  border: 5px solid #750707;
+  border-collapse: collapse;
+  margin: 10px;
+  padding: 10px 40px;
+  text-align: center;
+  font-weight: bolder;
 }
+
+th {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+
+td {
+  color: chocolate;
+}
+
+tr:nth-child(even) {
+  background-color: #dae5f4;
+}
+
+tr:nth-child(odd) {
+  background-color: #b8d1f3;
+}
+
