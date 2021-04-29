@@ -1,0 +1,15 @@
+.box {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 600;
+  background-color: maroon;
+  color: white;
+  width: 100px;
+  text-align: center;
+  padding: 80px 40px;
+  border-color: black;
+  border-style: solid;
+  border-width: 10px;
+  margin: 10px;
+}
