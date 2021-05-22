@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text, Links and Media</title>
 </head>
+
 <body>
     <nav>
         <a href="/index.html">home</a>
@@ -24,7 +26,8 @@
     <p>This sentence has <em>emphasized</em> and <strong>strong</strong> text.</p>
     <p>This sentence uses inline <q>quote</q> tag.</p>
     <p>This sentence uses <code>code</code> tag. <code>More code here!</code></p>
-    <p>This sentence has <sub>subscript</sub> as well as <sup>superscript</sup>. For example: e<sup>log(x)</sup> or H<sub>2</sub>O.</p>
+    <p>This sentence has <sub>subscript</sub> as well as <sup>superscript</sup>. For example: e<sup>log(x)</sup> or
+        H<sub>2</sub>O.</p>
     <hr>
 
     <h2 id="heading-additional-text">Additional Text: h2 with id heading-additional-text</h2>
@@ -40,6 +43,19 @@
     </pre>
     <small>This sentence is using small text.</small>
 
+    <hr>
+    <h2 id="heading-semantic-tags">Additional Semantic Tags: h2 with id heading-semantic-tags</h2>
+    <details>
+        <p>This is a details entry</p>
+    </details>
+    <details>
+        <summary>This is a special details entry </summary>
+        <p>Where heading uses summary tag</p>
+    </details>
+    <p>&lt;kbd&gt; tags are used for keyboard buttons i.e
+        <kbd style="border: 1px solid #666; border-radius: 3px;">Esc</kbd>
+    </p>
+    <p>&lt;samp&gt; tags are used for sample output form a computer program i.e <samp>Hello World!</samp></p>
     <hr>
 
     <h2 id="heading-lists">Lists: h2 with id heading-lists</h2>
@@ -60,7 +76,7 @@
     </ul>
     <h3 id="heading-lists-ordered-alpha">Ordered Lists Alphabetical: h3 with id heading-lists-ordered-alpha</h3>
     <p>This is an ordered list with alphabetical numbering:</p>
-    <ol type="A" >
+    <ol type="A">
         <li>Ordered List Item A</li>
         <li>Ordered List Item B</li>
         <li>Ordered List Item C</li>
@@ -86,14 +102,14 @@
     <p>This is a description list:</p>
     <dl>
         <dt>Term #1:</dt>
-            <dd>Description 1 for Term #1</dd>
+        <dd>Description 1 for Term #1</dd>
         <dt>Term #2:</dt>
-            <dd>Description 1 for Term #2</dd>
-            <dd>Description 2 for Term #2</dd>
+        <dd>Description 1 for Term #2</dd>
+        <dd>Description 2 for Term #2</dd>
         <dt>Term #3:</dt>
-            <dd>Description 1 for Term #3</dd>
-            <dd>Description 2 for Term #3</dd>
-            <dd>Description 3 for Term #3</dd>
+        <dd>Description 1 for Term #3</dd>
+        <dd>Description 2 for Term #3</dd>
+        <dd>Description 3 for Term #3</dd>
     </dl>
 
     <hr>
@@ -104,7 +120,8 @@
     <h4 id="heading-links-text">Linked Text: h4 with id heading-links-text</h4>
     <p>Let's look at text which has a link to some url.</p>
     <h5 id="heading-links-text-1">Linked Text - 1: h5 with id heading-links-text-1</h5>
-    <p>This is a <a href="https://workat.tech">link</a> (https://workat.tech) displayed using an anchor tag</p>
+    <p>This is a <a href="https://vineetvdubey.github.io">link</a> (https://vineetvdubey.github.io) displayed using an
+        anchor tag</p>
 
 
     <h5 id="heading-links-text-2">Linked Text - 2: h5 with id heading-links-text-2</h5>
@@ -115,7 +132,8 @@
     <p>This is an <a href="#heading-images-internal">internal link</a> (id:heading-images-internal)</p>
 
     <h5 id="heading-links-text-4">Linked Text - 4: h5 with id heading-links-text-4</h5>
-    <p>This is a <a href="https://workat.tech" target="_blank">link</a> displayed using an anchor tag that opens in a new tab.</p>
+    <p>This is a <a href="https://vineetvdubey.github.io" target="_blank">link</a> displayed using an anchor tag that
+        opens in a new tab.</p>
 
     <hr>
 
@@ -124,8 +142,11 @@
     <p>Let's look at images first.</p>
 
     <h4 id="heading-images-external">External Image: h4 with id heading-images-external</h4>
-    <p>The image displayed below is from an external image url (https://images.unsplash.com/photo-1547844149-792ce502416a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=640&q=80).</p>
-    <img src="https://images.unsplash.com/photo-1547844149-792ce502416a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=640&q=80">
+    <p>The image displayed below is from an external image url
+        (https://images.unsplash.com/photo-1547844149-792ce502416a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=640&q=80).
+    </p>
+    <img
+        src="https://images.unsplash.com/photo-1547844149-792ce502416a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=640&q=80">
 
     <h4 id="heading-images-internal">Internal Image: h4 with id heading-images-internal</h4>
     <p>The image displayed below is from an internal image url (/images/image.jpg).</p>
@@ -133,12 +154,16 @@
 
     <h4 id="heading-links-image">Linked Image: h4 with id heading-images-image</h4>
     <p>Clicking on this image opens the specfied url (https://unsplash.com/photos/yYHuMFSZ7A4).</p>
-    <p>Image Source: https://images.unsplash.com/photo-1547141646-9b35c56e093e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=640&q=80</p>
+    <p>Image Source:
+        https://images.unsplash.com/photo-1547141646-9b35c56e093e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=640&q=80
+    </p>
     <a href="https://unsplash.com/photos/yYHuMFSZ7A4" target="_blank">
-        <img src="https://images.unsplash.com/photo-1547141646-9b35c56e093e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=640&q=80">
+        <img
+            src="https://images.unsplash.com/photo-1547141646-9b35c56e093e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=640&q=80">
     </a>
 
     <hr>
 
 </body>
+
 </html>
